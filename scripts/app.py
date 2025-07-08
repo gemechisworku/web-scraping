@@ -46,7 +46,9 @@ for i, (name, config) in enumerate(SOURCES.items()):
             if df.shape[1] == 1:
                 st.write(df.to_markdown(index=False), unsafe_allow_html=True)
             else:
-                st.dataframe(df, use_container_width=True)
+                df_display = df.copy()
+                df_display.index = range(1, len(df_display) + 1)
+                st.dataframe(df_display, use_container_width=True)
 
             csv = df.to_csv(index=False).encode("utf-8")
             st.download_button(
