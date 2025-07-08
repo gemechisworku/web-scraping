@@ -46,6 +46,7 @@ pandas
 beautifulsoup4
 requests
 openpyxl
+tabulate
 ```
 ## 🛠 Installation
 1. Clone the repository:
