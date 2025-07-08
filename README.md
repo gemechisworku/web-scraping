@@ -50,8 +50,8 @@ openpyxl
 ## 🛠 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/oa-web-scraper-dashboard.git
-   cd oa-web-scraper-dashboard
+   git clone https://github.com/gemechisworku/web-scraping.git
+   cd web-scraping
    ```
 2. Install dependencies:
    ```bash
